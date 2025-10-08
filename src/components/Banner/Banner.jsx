@@ -5,7 +5,7 @@ import appStore from "../../assets/icon_appstore__ev0z770zyxoy_large_2x.png";
 
 const Banner = () => {
   return (
-    <div className="text-center mt-10">
+    <div className="text-center my-10">
       <h1 className=" text-5xl font-extrabold">
         We Build <br />
         <span className="text-[#632EE3]">Productive</span> Apps
