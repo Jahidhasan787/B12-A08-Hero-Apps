@@ -1,15 +1,16 @@
 import React from "react";
 import logo from '../../assets/logo.png'
 import { Github } from "lucide-react";
+import { Link, NavLink } from "react-router";
 
 
 
 const Navbar = () => {
 
     const links = <>
-    <li className="m-2">Home</li>
-    <li className="m-2">Apps</li>
-    <li className="m-2">Installation</li>
+     <NavLink to="/"><li className="m-2">Home</li></NavLink> 
+    <NavLink to="/allApps"><li className="m-2">Apps</li></NavLink>
+    <NavLink to="/installation"><li className="m-2">Installation</li></NavLink>
     </>
   return (
     <div>
@@ -40,7 +41,7 @@ const Navbar = () => {
               {links}
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl"><img src={logo} alt="" className="w-[2rem] h-[2rem]"/>HERO.IO</a>
+          <NavLink to='/'><p className="btn btn-ghost text-xl"><img src={logo} alt="" className="w-[2rem] h-[2rem]"/> HERO.IO</p></NavLink>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
@@ -48,8 +49,9 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end ">
-          <a className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white"><Github /> Contribute</a>
+          <a href="https://github.com/dashboard" target="_blank" className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white"><Github /> Contribute</a>
         </div>
+        
       </div>
     </div>
   );

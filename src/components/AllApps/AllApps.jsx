@@ -1,0 +1,27 @@
+import React, { Suspense } from "react";
+import { useLoaderData } from "react-router";
+import App from "../../pages/App/App";
+
+const AllApps = () => {
+  const allApps = useLoaderData();
+  return (
+    <div>
+      <div className="text-center">
+        <h1 className="text-3xl font-bold mb-2">Our All Applications</h1>
+        <p className="text-[#627382] mb-8">
+          Explore All Apps on the Market developed by us. We code for Millions
+        </p>
+      </div>
+      
+      <Suspense fallback={<p>loading...</p>}>
+        <div className=" grid grid-cols-1 md:grid-cols-4 gap-5 m-10">
+          {allApps.map((app) => (
+            <App key={app.id} app={app}></App>
+          ))}
+        </div>
+      </Suspense>
+    </div>
+  );
+};
+
+export default AllApps;

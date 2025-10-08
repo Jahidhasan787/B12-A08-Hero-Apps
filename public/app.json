@@ -1,0 +1,146 @@
+[
+  {
+    "image": "https://play-lh.googleusercontent.com/0NEXkDLAiA1a3-00girusg4RETN8tQCDP60yaW80QS-llpW6_1rpIbZKUwKC41kPfLxy=w480-h960-rw",
+    "title": "SnapPix – Professional AI Photo Editor & Image Enhancer",
+    "companyName": "PixelSoft",
+    "id": 1,
+    "description": "SnapPix is your all-in-one AI photo editing companion designed to make every picture perfect. Whether you're enhancing selfies, applying stunning filters, removing unwanted objects, or adjusting lighting with one tap, SnapPix delivers professional results instantly. Packed with over 200 filters, portrait retouching, background blur, and real-time beauty mode, it’s the ultimate creative tool for photographers, influencers, and content creators.",
+    "size": 46,
+    "reviews": 8500,
+    "ratingAvg": 4.7,
+    "downloads": 220000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 350 },
+      { "name": "3 star", "count": 740 },
+      { "name": "4 star", "count": 2300 },
+      { "name": "5 star", "count": 4910 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/8h-vibuWccUfYDXsoP1M3Z7XHQlxCuMV-OvAEepcnYXSUUOETgdfcnBCSbCjLJ4iTwmY=w480-h960-rw",
+    "title": "TaskHero – Smart Task Manager & Productivity Assistant",
+    "companyName": "WorkSync",
+    "id": 2,
+    "description": "TaskHero helps you stay organized and productive every day. Create to-do lists, manage projects, and track your goals with AI-powered reminders and progress analytics. From managing work tasks to planning personal routines, TaskHero keeps everything in one place. Customize your workspace, sync across devices, and collaborate seamlessly with your team. Boost your focus and make productivity a daily habit with TaskHero.",
+    "size": 32,
+    "reviews": 6200,
+    "ratingAvg": 4.5,
+    "downloads": 175000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 290 },
+      { "name": "3 star", "count": 580 },
+      { "name": "4 star", "count": 1600 },
+      { "name": "5 star", "count": 3550 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/VHUvySzKzC4YIhdxRFNvi0ZZIAuLAJZJ3XE3hTf-sWDK2a-JxKZgubC_6vqdub3tJVpa=w480-h960-rw",
+    "title": "LangGo – Interactive Language Learning with AI Tutor",
+    "companyName": "EduNova",
+    "id": 3,
+    "description": "LangGo makes learning a new language fun, personalized, and interactive. Practice speaking, listening, and grammar with an intelligent AI tutor that adapts to your learning style. Join real-time voice chats, play word games, and challenge friends in vocabulary battles. LangGo supports over 20 languages including English, Spanish, French, and Japanese — making it the perfect choice for students, travelers, and professionals worldwide.",
+    "size": 55,
+    "reviews": 9600,
+    "ratingAvg": 4.8,
+    "downloads": 315000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 240 },
+      { "name": "3 star", "count": 460 },
+      { "name": "4 star", "count": 1900 },
+      { "name": "5 star", "count": 6880 }
+    ]
+  },
+  {
+    "image": "https://runmeter.com/images/logo-runmeter.png",
+    "title": "RunMate – GPS Fitness Tracker for Running, Walking & Cycling",
+    "companyName": "ActiveZone",
+    "id": 4,
+    "description": "RunMate is your ultimate fitness companion designed to help you achieve your health goals. Track your runs, walks, and cycling sessions with precise GPS and real-time stats including distance, speed, calories, and pace. Analyze your performance trends, set personalized goals, and stay motivated with challenges and achievements. Whether you’re training for a marathon or starting your fitness journey, RunMate keeps you moving smarter every day.",
+    "size": 70,
+    "reviews": 7400,
+    "ratingAvg": 4.4,
+    "downloads": 185000,
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 340 },
+      { "name": "3 star", "count": 860 },
+      { "name": "4 star", "count": 2300 },
+      { "name": "5 star", "count": 3650 }
+    ]
+  },
+  {
+    "image": "https://bear.app/images/logo.png",
+    "title": "NoteSphere – Cloud Synced Notes, Tasks & Markdown Editor",
+    "companyName": "CloudLabs",
+    "id": 5,
+    "description": "NoteSphere is a beautifully designed note-taking app that keeps your ideas safe and synced across all your devices. Write effortlessly using Markdown, organize notes into folders, and attach files or images to keep everything together. With automatic cloud backup, powerful search, and offline access, NoteSphere ensures your notes are always with you. Whether it’s for study, work, or journaling — it’s the notebook you’ll never lose.",
+    "size": 24,
+    "reviews": 5800,
+    "ratingAvg": 4.6,
+    "downloads": 130000,
+    "ratings": [
+      { "name": "1 star", "count": 160 },
+      { "name": "2 star", "count": 230 },
+      { "name": "3 star", "count": 480 },
+      { "name": "4 star", "count": 1400 },
+      { "name": "5 star", "count": 3530 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/dh9Fk20MwwASwsbdcbU3ZkGPqmowJIB92NJ-LCavxGlFBli36ByMYtYZkpVtqqJNbA=w480-h960-rw",
+    "title": "EcoTrack – Smart Carbon Footprint & Green Lifestyle App",
+    "companyName": "Greenify",
+    "id": 6,
+    "description": "EcoTrack helps you live sustainably by tracking your carbon footprint and offering practical tips to reduce it. Monitor your daily habits like energy use, travel, and diet to see their environmental impact. Earn eco points for every positive action, set sustainability goals, and join global challenges to inspire change. EcoTrack makes going green rewarding, simple, and impactful — one step at a time.",
+    "size": 39,
+    "reviews": 4400,
+    "ratingAvg": 4.3,
+    "downloads": 95000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 260 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1400 },
+      { "name": "5 star", "count": 2060 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/GcwUtyv-W1lmc7YFUU1kAi63bR4gWu0c3LCGB1s7yCF8RNpU7lVt-GTr0BYi0nty48g=w240-h480-rw",
+    "title": "TuneCast – Music Player, Podcast Streamer & Playlist Creator",
+    "companyName": "SonicMedia",
+    "id": 7,
+    "description": "TuneCast brings your favorite music and podcasts together in one smooth experience. Stream from millions of songs, build collaborative playlists, and discover new artists based on your taste. With offline playback, equalizer presets, and high-quality audio streaming, TuneCast delivers a next-level listening experience. Enjoy uninterrupted sound whether you’re at the gym, on the road, or chilling at home.",
+    "size": 80,
+    "reviews": 10200,
+    "ratingAvg": 4.7,
+    "downloads": 400000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 420 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 2300 },
+      { "name": "5 star", "count": 6380 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/4HYYXZXP-P0AbjOTYBU8gP0O7It-mQsyRmc5Mn2emy-JrkCPmn8W19zjbC-Ki-LJoHvF=w480-h960-rw",
+    "title": "Sleepify – Relaxation Sounds & Smart Sleep Tracking App",
+    "companyName": "CalmNest",
+    "id": 8,
+    "description": "Sleepify helps you sleep better with calming sounds, guided meditations, and smart sleep tracking. Choose from hundreds of ambient soundscapes, bedtime stories, and breathing exercises tailored to help you unwind. The app also monitors your sleep cycles to give you insights for healthier rest. Sleepify turns your nights peaceful and your mornings refreshing.",
+    "size": 36,
+    "reviews": 6800,
+    "ratingAvg": 4.9,
+    "downloads": 210000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 280 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 5100 }
+    ]
+  }
+]
