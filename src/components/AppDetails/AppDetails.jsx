@@ -54,7 +54,7 @@ const AppDetails = () => {
             </div>
           </div>
           <button   className={`btn text-white bg-[#00D390] ${installed?" block": "bg-gray-400 cursor-not-allowed"}` } onClick={()=>handleInstallation(id)}>
-           {installed?`Install Now (${size} MB`: "Installed"} 
+           {installed?`Install Now (${size}) MB`: "Installed"} 
           </button>
         </div>
       </div>

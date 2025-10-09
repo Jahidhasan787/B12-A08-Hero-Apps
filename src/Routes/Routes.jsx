@@ -28,6 +28,7 @@ import Installation from '../pages/Installation/Installation';
         },
         {
             path:"/installation",
+            loader:()=>fetch("/allApps.json"),
             Component:Installation,
         },
         {

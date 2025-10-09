@@ -26,4 +26,4 @@ const addToLocalS =(id ) =>{
 }
 
 
-export {addToLocalS};
+export {addToLocalS,getStoreApp};
