@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useLoaderData, useParams } from "react-router";
 import ratingImage from "../../assets/icon-ratings.png";
 import downloadImage from "../../assets/icon-downloads.png";
@@ -7,10 +7,12 @@ import RatingChart from "../RatingChart/RatingChart";
 import { addToLocalS } from "../Utility/addToLocalS";
 
 const AppDetails = () => {
+  const [installed, setInstalled] =useState(true)
   const { id } = useParams();
   const details = useLoaderData();
   const handleInstallation = (id) =>{
     addToLocalS(id)
+    setInstalled()
   }
 
   const singleApp = details.find((app) => app.id === parseInt(id));
@@ -47,12 +49,12 @@ const AppDetails = () => {
             </div>
             <div>
               <img src={reviewImage} alt="" />
-              <p className="py-2">Total Reviews</p>
-              <h2 className="text-2xl font-extrabold">{reviews}</h2>
+              <p className="py-2" >Total Reviews</p>
+              <h2 className="text-2xl font-extrabold ">{reviews}</h2>
             </div>
           </div>
-          <button className="btn text-white bg-[#00D390]" onClick={()=>handleInstallation(id)}>
-            Install Now ({size} MB)
+          <button   className={`btn text-white bg-[#00D390] ${installed?" block": "bg-gray-400 cursor-not-allowed"}` } onClick={()=>handleInstallation(id)}>
+           {installed?`Install Now (${size} MB`: "Installed"} 
           </button>
         </div>
       </div>

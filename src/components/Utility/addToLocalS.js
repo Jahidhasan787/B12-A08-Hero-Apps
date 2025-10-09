@@ -11,7 +11,8 @@ const getStoreApp =()=>{
     }
 }
 
-const addToLocalS =(id) =>{
+const addToLocalS =(id ) =>{
+
     const storAppData = getStoreApp();
     if(storAppData.includes(id)){
         toast("App Exist on you device")
