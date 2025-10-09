@@ -4,10 +4,14 @@ import ratingImage from "../../assets/icon-ratings.png";
 import downloadImage from "../../assets/icon-downloads.png";
 import reviewImage from "../../assets/icon-review.png";
 import RatingChart from "../RatingChart/RatingChart";
+import { addToLocalS } from "../Utility/addToLocalS";
 
 const AppDetails = () => {
   const { id } = useParams();
   const details = useLoaderData();
+  const handleInstallation = (id) =>{
+    addToLocalS(id)
+  }
 
   const singleApp = details.find((app) => app.id === parseInt(id));
   const {
@@ -22,8 +26,8 @@ const AppDetails = () => {
   } = singleApp;
   return (
     <div>
-      <div className="flex m-10 justify-center items-center gap-10 ">
-        <img src={image} className="w-[20%] shadow-sm" alt="" />
+      <div className="flex md:flex-row flex-col m-10 justify-center items-center gap-10 ">
+        <img src={image} className="w-[80%] md:w-[20%] shadow-sm" alt="" />
         <div>
           <h1 className="text-xl font-bold">{title}</h1>
           <p className="pb-5">
@@ -47,7 +51,7 @@ const AppDetails = () => {
               <h2 className="text-2xl font-extrabold">{reviews}</h2>
             </div>
           </div>
-          <button className="btn text-white bg-[#00D390]">
+          <button className="btn text-white bg-[#00D390]" onClick={()=>handleInstallation(id)}>
             Install Now ({size} MB)
           </button>
         </div>

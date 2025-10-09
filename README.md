@@ -1,4 +1,4 @@
-# 🦸‍♂️ Assignment 008 — Hero IO
+<!-- # 🦸‍♂️ Assignment 008 — Hero IO
 
 ### 📅 Deadline For 60 marks: 09 October , 2025 (11:59 pm ⏱️)
 
@@ -16,9 +16,9 @@
 - Make Sure on Production Application is error Free
 - Add a Readme.md with App Name , Description & Technologies
 
----
+--- -->
 
-# 🔧 Main Requirements
+<!-- # 🔧 Main Requirements
 
 ## 1. 🧱 Layout & Data Design
 
@@ -27,9 +27,9 @@
 - The header must include:
   - A logo.on clicking it user will be navigated to home page.
   - A navigation bar with links [ `home` , `apps` , `installation` ] and active route indication.
-  - A `Contribution` button as Figma linking to the your GitHub profile.
+  - A `Contribution` button as Figma linking to the your GitHub profile. -->
 
-#### Footer
+<!-- #### Footer
 
 - Design a custom footer using your own creativity and style.
 
@@ -55,9 +55,9 @@
       { name: "5 star"; count: number }
     ];
   }
-  ```
+  ``` -->
 
----
+<!-- ---
 
 ## 2. 🏠 Home Page
 
@@ -83,13 +83,13 @@
 - Clicking on a card should navigate the user to the App Details page.
 - Include a “Show All” button that navigates to the All Apps page.
 
----
+--- -->
 
-## 3.📱 All Apps Page
+<!-- ## 3.📱 All Apps Page
 
 #### Title Section
 
-- Include a title and subtitle following the Figma design.
+- Include a title and subtitle following the Figma design. -->
 
 #### Search and States
 
@@ -99,7 +99,7 @@
   - Search will be case-insensitive
   - If no app matches, display a “No App Found” message.
 
-#### App Section
+<!-- #### App Section
 
 - Display all apps from the JSON data.
 - Each app card should include:
@@ -109,32 +109,32 @@
   - Average rating
 - Clicking on an app card should navigate to the App Details page.
 
----
+--- -->
 
-## 4.📊 App Details Page
+<!-- ## 4.📊 App Details Page
 
 #### App Information
 
 - Show app image on the left.
-- Display app details such as title, rating, downloads, reviews.
+- Display app details such as title, rating, downloads, reviews. -->
 - Include an `Install button`:
   - When clicked, it becomes disabled and the text changes to `Installed`.
   - Show a Success Toast after App installed
 
-#### App Review Chart
+<!-- #### App Review Chart
 
 - Implement a responsive chart using the **Recharts** library.
-- Visualize the app’s review data as shown in the Figma design.
+- Visualize the app’s review data as shown in the Figma design. -->
 
-#### App Description
+<!-- #### App Description
 
-- Show the app details in description section as per Figma layout.
+- Show the app details in description section as per Figma layout. -->
 
 ---
 
 ## 5. Error Page & Others
 
-- Create a custom error page for invalid routes.
+<!-- - Create a custom error page for invalid routes. -->
 
 - Show a loading animation during: `Challenge Part`  
 
@@ -153,8 +153,8 @@
 
 #### App Installation
 
-- When the “Install” button is clicked:
-  - Save the app to localStorage.
+<!-- - When the “Install” button is clicked:
+  - Save the app to localStorage. -->
   - If the app is already installed, show a disabled button with the text `Installed`.
 
 #### My Installation Page
