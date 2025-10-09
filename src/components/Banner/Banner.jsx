@@ -17,20 +17,25 @@ const Banner = () => {
         an impact.
       </p>
       <div className="flex justify-center pb-5 gap-5">
-        <button className="btn p-5">
-          <img src={googleStore} className="w-[30px]" alt="" />
-          Google Play
-        </button>
-        <button className="btn p-5">
-          {" "}
-          <img src={appStore} className="w-[25px]" alt="" />
-          App Store
-        </button>
+        <a href="https://play.google.com/store/games?hl=en" target="_blank">
+          <button className="btn p-5">
+            <img src={googleStore} className="w-[30px]" alt="" />
+            Google Play
+          </button>
+        </a>
+        <a href="https://www.apple.com/app-store/" target="_blank">
+          <button className="btn p-5">
+            <img src={appStore} className="w-[25px]" alt="" />
+            App Store
+          </button>
+        </a>
       </div>
       <img className="w-[50%] mx-auto" src={heroImage} alt="" />
       <div className="text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2] py-20">
-        <h2 className="text-4xl font-bold pb-10">Trusted by Millions, Built for You</h2>
-        <div className="flex justify-between items-center w-[50%] mx-auto">
+        <h2 className="text-4xl font-bold pb-10">
+          Trusted by Millions, Built for You
+        </h2>
+        <div className="flex flex-col md:flex-row justify-between items-center w-[50%] mx-auto">
           <ul>
             <li>Total Downloads</li>
             <li className="text-5xl font-bold py-3">29.6M</li>

@@ -19,7 +19,7 @@ const Apps = ({ appsData }) => {
         </div>
       </Suspense>
       <div className="text-center mb-20">
-        <NavLink to='/allApps'><button className=" btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white ">
+        <NavLink to='/Apps'><button className=" btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white ">
           Show All
         </button></NavLink>
       </div>

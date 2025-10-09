@@ -1,4 +1,5 @@
 import React from "react";
+import "./nav.css"
 import logo from '../../assets/logo.png'
 import { Github } from "lucide-react";
 import { Link, NavLink } from "react-router";
@@ -9,7 +10,7 @@ const Navbar = () => {
 
     const links = <>
      <NavLink to="/"><li className="m-2">Home</li></NavLink> 
-    <NavLink to="/allApps"><li className="m-2">Apps</li></NavLink>
+    <NavLink to="/Apps"><li className="m-2">Apps</li></NavLink>
     <NavLink to="/installation"><li className="m-2">Installation</li></NavLink>
     </>
   return (

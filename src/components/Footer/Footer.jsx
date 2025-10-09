@@ -1,15 +1,19 @@
 import React from "react";
 import logo from "../../assets/logo.png";
+import { Link } from "react-router";
 
 const Footer = () => {
   return (
     <div>
       <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content items-center p-4 md:px-10">
         <aside className="grid-flow-col items-center">
-          <div className="flex gap-2 items-center">
-            <img src={logo} className="w-[10%] " alt="" />
-            <p>HERO.IO</p>
-          </div>
+          <Link to="/">
+            <div className="flex gap-2 items-center">
+              <img src={logo} className="w-[10%] " alt="" />
+
+              <p>HERO.IO</p>
+            </div>
+          </Link>
 
           <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
         </aside>

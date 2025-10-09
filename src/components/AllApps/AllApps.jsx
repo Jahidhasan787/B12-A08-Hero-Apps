@@ -2,6 +2,7 @@ import React, { Suspense } from "react";
 import { useLoaderData } from "react-router";
 import App from "../../pages/App/App";
 
+
 const AllApps = () => {
   const allApps = useLoaderData();
   return (
@@ -11,6 +12,10 @@ const AllApps = () => {
         <p className="text-[#627382] mb-8">
           Explore All Apps on the Market developed by us. We code for Millions
         </p>
+      </div>
+      <div className="mx-10 px-5 flex justify-between ">
+        <p className="text-xl font-bold">({allApps.length})Apps Found</p>
+        <input type="text" placeholder="Search" className="px-3 outline-1 outline-gray-300"/>
       </div>
       
       <Suspense fallback={<p>loading...</p>}>
