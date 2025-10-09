@@ -13,7 +13,7 @@ const AllApps = () => {
           Explore All Apps on the Market developed by us. We code for Millions
         </p>
       </div>
-      <div className="mx-10 px-5 flex justify-between ">
+      <div className="mx-10 px-5 flex justify-between flex-col-reverse gap-2 md:flex-row ">
         <p className="text-xl font-bold">({allApps.length})Apps Found</p>
         <input type="text" placeholder="Search" className="px-3 outline-1 outline-gray-300"/>
       </div>

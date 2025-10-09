@@ -5,7 +5,7 @@ import Error from '../pages/ErrorPage/Error';
 import Home from '../pages/Home/Home';
 import AllApps from '../components/AllApps/AllApps';
 import AppDetails from '../components/AppDetails/AppDetails';
-import Installation from '../pages/Installaton/Installation';
+import Installation from '../pages/Installation/Installation';
 
 
 
